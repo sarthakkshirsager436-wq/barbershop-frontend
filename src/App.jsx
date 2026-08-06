@@ -4,7 +4,7 @@ import Register from "./pages/Register";
  import Form from "./pages/Form";
  import ShopList from "./pages/ShopList";
  import Bookings from "./pages/bookings";
- import ProtectedRoutes from "./components/protectedRoutes";
+ import ProtectedRoutes from "./components/ProtectedRoutes";
  import { ToastContainer } from "react-toastify";
 import "react-toastify/dist/ReactToastify.css";
 
