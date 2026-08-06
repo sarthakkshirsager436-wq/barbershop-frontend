@@ -37,7 +37,7 @@ function ShopList() {
             try {
 
                 const res = await axios.post(
-                    "https://barbershop-backend-1-xb3t.onrender.com/api/auth/search",
+                    "https://barbershop-backend-1-xb3t.onrender.com/api/shops/search",
                     {
                         location,
                         gender,

@@ -46,7 +46,7 @@ function Bookings() {
         const fetchBookings = async () => {
             try {
                 const res = await axios.post(
-                    "https://barbershop-backend-1-xb3t.onrender.com/api/auth/bookings",
+                    "https://barbershop-backend-1-xb3t.onrender.com/api/available/bookings",
                     {
                         shopName,
                         date,
@@ -76,7 +76,7 @@ function Bookings() {
     const createBooking = async (slot) => {
     try {
         const response = await axios.post(
-            "https://barbershop-backend-1-xb3t.onrender.com/api/auth/createbookings",
+            "https://barbershop-backend-1-xb3t.onrender.com/api/available/createbookings",
             
             {
                 shopName,
