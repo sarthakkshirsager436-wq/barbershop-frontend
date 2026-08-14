@@ -3,8 +3,10 @@ import { Link } from "react-router-dom";
 import axios from "axios";
 import barberImage from "../assets/images.jpg";
 import { toast } from "react-toastify";
+import { useNavigate } from "react-router-dom";
 
 function Register() {
+  const navigate=useNavigate();
   const [formData, setFormData] = useState({
     name: "",
     email: "",
@@ -29,6 +31,8 @@ function Register() {
     try{
         const response = await axios.post("https://barbershop-backend-1-xb3t.onrender.com/api/auth/register", formData);
         toast.success("Registered successfully.login with registered acount!");
+
+        navigate("/login");
 
         console.log(response.data);
 
