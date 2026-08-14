@@ -85,7 +85,7 @@ function ShopList() {
                         key={shop._id}
                        
                         className=" w-80 h-80 bg-pink-200 text-center border-4 
-                        border-double p-8  m-10 rounded-2xl shadow-2xl transition-all duration-100  hover:w-90  "
+                        border-double p-8  m-2 rounded-2xl shadow-2xl transition-all duration-100  hover:w-90  "
                     >
 
                         <h2 className="text-pink-800 text-3xl underline ">{shop.shopName}</h2>
