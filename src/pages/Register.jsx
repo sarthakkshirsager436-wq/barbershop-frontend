@@ -28,7 +28,7 @@ function Register() {
 
     try{
         const response = await axios.post("https://barbershop-backend-1-xb3t.onrender.com/api/auth/register", formData);
-        toast.success("Registered successfully, login with registered acount!");
+        toast.success("Registered successfully.login with registered acount!");
 
         console.log(response.data);
 
