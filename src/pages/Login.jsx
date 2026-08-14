@@ -52,7 +52,7 @@ const handleSubmit = async (e) => {
 
   return (
 
-    <div className="min-h-screen bg-blue-400 flex items-center justify-center ">
+    <div className="min-h-screen w-full bg-blue-400 flex flex-col md:flex-row items-center justify-center ">
 
       <img
       
